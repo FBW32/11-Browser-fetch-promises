@@ -12,6 +12,6 @@ let myPromise=new Promise((resolve, reject) => {
         modal.style.display="block";
         let close=document.querySelector(".close");
         close.addEventListener("click",()=>{modal.style.display="none"})
-    },6000))
+    },60000))
 }else{reject(console.log("An error occured"))
 }})
